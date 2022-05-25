@@ -1,0 +1,59 @@
+.promo {
+    min-height: 650px;
+    padding: 21px 0 93px 0;
+    background: url(../../img/bg/woman_bg.jpg) center (center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__header {
+        margin: 0;
+        margin-top: 91px;
+        font-weight: 400;
+        font-size: 42px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__subheader {
+        margin: 0;
+        margin-top: 17px;
+        font-weight: 400;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__icons {
+        margin: 0;
+        margin-top: 60px;
+        width: 424px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__icon {
+        width: 108px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        color: #ffffff;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    &__link {
+        margin-top: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #ffffff;
+        text-decoration: none;
+        a {
+            text-decoration: underline;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+    }
+}
