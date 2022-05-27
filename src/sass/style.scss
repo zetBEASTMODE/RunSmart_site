@@ -11,6 +11,6 @@
 @import 'blocks/buttons';
 @import 'blocks/privileges';
 @import 'blocks/titles';
-@import 'base/media';
 @import 'blocks/consultation';
 @import 'blocks/forms';
+@import 'base/media'; /* Всегда должен идти последним */

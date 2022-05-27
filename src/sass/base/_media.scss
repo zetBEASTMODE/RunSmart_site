@@ -9,7 +9,20 @@
     .promo__wrapper {
         padding-right: 20px;
     }
+    .consultation {
+        &__descr {
+            font-size: 20px;
+            padding-left: 15px;
+        }
+    }
+    .title_left {
+        padding-left: 15px; 
+    }
+    .feed-form {
+        padding-left: 15px;
+    }
 }
+
 @media (max-width: 991px) {
     .header {
         padding-right: 30px;
@@ -38,6 +51,20 @@
             max-width: 205px;
         }
     }
+    .consultation {
+        min-height: 650px;
+        &__descr {
+            padding-left: 20px;
+            font-size: 18px;
+        }
+    }
+    .title_left {
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    .feed-form {
+        padding-left: 20px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -65,6 +92,11 @@
             width: 250px;
             height: 50px;
             font-size: 16px;
+        }
+        &_submit {
+            width: 100%;
+            height: 45px;
+            font-size: 14px;
         }
     }
     .promo {
@@ -106,6 +138,22 @@
             font-size: 12px;
         }
     }
+    .consultation {
+        &__descr {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .title_left {
+        line-height: 38px;
+        font-size: 24px;
+    }
+    .feed-form {
+        width: 250px;
+        input {
+            height: 45px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -130,6 +178,11 @@
             width: 200px;
             height: 40px;
             font-size: 13px;
+        }
+        &_submit {
+            width: 100%;
+            height: 50px;
+            font-size: 14px;
         }
     }
     .promo {
@@ -180,8 +233,23 @@
             height: 75px;
         }
     }
+    .consultation {
+        padding: 70px 0 50px 0;
+        &__descr {
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
     .title {
         font-size: 22px;
+        &_left {
+            font-size: 20px;
+            line-height: 34px;
+        }
+    }
+    .feed-form {
+        padding: 0;
+        margin: 55px auto;
     }
 }
 
