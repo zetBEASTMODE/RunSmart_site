@@ -15,13 +15,27 @@
       });
   }); */ /* slick-slider jQuery */
 
-  var slider = tns({
+  const slider = tns({
     container: '.carousel__inner',
     items: 1,
     slideBy: 'page',
     autoplay: false,
-    controlsText: [
-        '<img src="icons/arrow/left.png"></img>',
-        '<img src="icons/arrow/right.png"></img>'
-    ]
+    controls: false,
+    responsive: {
+        320: {
+            nav: true,
+            navPosition: "bottom"
+        },
+        1100: {
+            nav: false,
+        }
+    }
   });
+
+  document.querySelector('.prev').addEventListener('click', function () {
+    slider.goTo('prev');
+  });
+
+  document.querySelector('.next').addEventListener('click', function () {
+    slider.goTo('next');
+  });  /* tiny-slider */

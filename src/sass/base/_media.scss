@@ -20,6 +20,14 @@
     }
     .feed-form {
         padding-left: 15px;
+    }    
+}
+
+@media (max-width: 1099px) {
+    .carousel {
+        .prev, .next {
+            display: none;
+        }
     }
 }
 
@@ -154,6 +162,11 @@
             height: 45px;
         }
     }
+    .tns-item {
+        img {
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -250,6 +263,14 @@
     .feed-form {
         padding: 0;
         margin: 55px auto;
+    }
+    .carousel {
+        .tns-nav {
+            button {
+                width: 25px;
+                height: 25px;
+            }
+        }
     }
 }
 
