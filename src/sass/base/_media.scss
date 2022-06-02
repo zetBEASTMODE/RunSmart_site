@@ -73,6 +73,22 @@
     .feed-form {
         padding-left: 20px;
     }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
+    .reviews {
+        &__photo {
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .reviews-item {
+        &__descr {
+            font-size: 14px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -165,6 +181,23 @@
     .tns-item {
         img {
             width: 100%;
+        }
+    }
+    .reviews-item {
+        &__descr {
+            font-size: 13px;
+        }
+    }
+    .reviews {
+        &__photo {
+            width: 135px;
+            height: 135px;
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 170px;
+            font-size: 16px;
         }
     }
 }
@@ -270,6 +303,34 @@
                 width: 25px;
                 height: 25px;
             }
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 87px;
+            font-size: 10px;
+        }
+    }
+    .reviews {
+        &__content {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        &__photo { 
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .reviews-item {
+        margin-top: 15px;
+        text-align: center;
+        &__title {
+            margin: 0 auto;
+        }
+        &__descr {
+            font-size: 12px;
         }
     }
 }
