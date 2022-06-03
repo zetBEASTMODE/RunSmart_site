@@ -8,6 +8,9 @@
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
+    &:hover {
+        box-shadow: 5px 5px 20px grey;
+    }
     &_main {
         margin-top: 67px;
         width: 300px;

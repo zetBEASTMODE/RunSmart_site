@@ -41,10 +41,16 @@
             border-radius: 100%;
             border-color: #D3D3D3;
             border: none;
+            &:hover {
+                box-shadow: 1px 1px 10px #D3D3D3;
+            }
         }
         .tns-nav-active {
             border-color: $main_color;
             background-color: $main_color;
+            &:hover {
+                box-shadow: 1px 1px 10px $main_color;
+            }            
         }
     }
 }
