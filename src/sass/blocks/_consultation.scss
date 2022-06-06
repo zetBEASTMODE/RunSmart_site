@@ -10,4 +10,15 @@
         text-align: left;
         color: #fff;
     }
+    .error {
+        text-align: center;
+        border: 1px solid red;
+        margin-bottom: 15px;
+    }
+    label.error {
+        text-align: center;
+        border: none;
+        margin-bottom: 15px;
+        color: #fff;
+    }
 }
