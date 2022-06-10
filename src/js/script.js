@@ -118,7 +118,7 @@ $(document).ready(function(){
 
     $('input[name=phone]').mask("+7 (999) 999-99-99");
 
-    $('form').submit(function () {
+    $('form').submit(function (e) {
       e.preventDefault();
       $.ajax({
         type: "POST",
@@ -127,7 +127,7 @@ $(document).ready(function(){
       }).done(function() {
         $(this).find("input").val("");
         $('#consultation, #order').fadeOut();
-        $('overlay, #thanks').fadeIn('slow');
+        $('.overlay, #thanks').fadeIn('slow');
         $('form').trigger('reset');
       });
       return false;
